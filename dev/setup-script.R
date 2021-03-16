@@ -77,9 +77,9 @@ devtools::check(document = FALSE) # check the package
 ## If you want to provide data along with your package
 usethis::use_data_raw( name = "my_dataset", open = FALSE )
 
-## Tests
+# Tests
 ## Add one line by test you want to create
-usethis::use_test( "hello" )
+usethis::use_test( "division" )
 
 ## Vignette
 usethis::use_vignette("ThisTidyPackage")
