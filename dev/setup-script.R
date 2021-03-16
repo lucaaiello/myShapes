@@ -53,8 +53,8 @@ usethis::use_readme_md( open = FALSE )
 
 
 ## Add a package
-# usethis::use_package( "dplyr" )
-# remeber to add it to ROXYGEN or NAMESPACE:
+usethis::use_package( "dplyr" )
+remeber to add it to ROXYGEN or NAMESPACE:
 #' @import dplyr  # ROXYGEN
 #' import(dplyr)  # NAMESPACE
 
