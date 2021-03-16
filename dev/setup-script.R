@@ -53,7 +53,7 @@ usethis::use_readme_md( open = FALSE )
 
 
 ## Add a package
-usethis::use_package( "dplyr" )
+# usethis::use_package( "dplyr" )
 # remeber to add it to ROXYGEN or NAMESPACE:
 #' @import dplyr  # ROXYGEN
 #' import(dplyr)  # NAMESPACE
@@ -64,6 +64,8 @@ usethis::use_namespace(roxygen = TRUE)
 devtools::document() # to fill NAMESPACE and documentation with ROXYGEN comments
 # or roxygen2::roxygenise() # converts roxygen comments to .Rd files.
 # or [Ctrl + Shift + D] in RStudio
+
+# To creatte the documentations for the created functions: Ctrl + Shift + Alt + r
 
 ## Build or load
 # Load the package [CTRL + SHIFT + L] or install-and-reload [CTRL + SHIFT + B]
