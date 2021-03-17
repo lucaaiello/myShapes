@@ -22,3 +22,6 @@ library(myShapes)
 average_mpg(my_dataset)
 ```
 
+```{r}
+my_sqrt(25)
+```

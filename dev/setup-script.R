@@ -54,7 +54,7 @@ usethis::use_readme_md( open = FALSE )
 
 ## Add a package
 usethis::use_package( "dplyr" )
-remeber to add it to ROXYGEN or NAMESPACE:
+# remeber to add it to ROXYGEN or NAMESPACE:
 #' @import dplyr  # ROXYGEN
 #' import(dplyr)  # NAMESPACE
 
@@ -80,6 +80,9 @@ usethis::use_data_raw( name = "my_dataset", open = FALSE )
 # Tests
 ## Add one line by test you want to create
 usethis::use_test( "division" )
+usethis::use_test( "square_root" )
+
+
 
 ## Vignette
 usethis::use_vignette("ThisTidyPackage")

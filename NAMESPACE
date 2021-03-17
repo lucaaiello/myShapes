@@ -2,4 +2,5 @@
 
 export(average_mpg)
 export(my_division)
+export(my_sqrt)
 import(dplyr)
